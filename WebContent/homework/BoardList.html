@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoardList.html</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+           
+        <a class="navbar-brand" href="#">
+            <img src="../images/logo_center_v2.jpg" alt="Logo" style="width:80px;">
+          </a>
+       
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">홈으로</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">회원제게시판</a>
+            <a class="nav-link" href="#">자료실</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">임시Menu</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </li>
+        </ul>
+
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">게시판-이런저런기능이 있는 게시판입니다</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <ul class="list-group">
+                    <li style="background-color: rgb(76, 223, 76);" class="list-group-item active" ><a href="#" class="text-white">현재메뉴명</li>
+                    <li class="list-group-item"><a href="#">회원제게시판</a></li>
+                    <li class="list-group-item"><a href="#">자료실</a>
+                    </li>
+                    <li class="list-group-item dropdown-toggle" data-toggle="dropdown" 
+                    style="cursor:pointer;">
+                        임시Menu
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Q&A</a>
+                            <a class="dropdown-item" href="#">GuestBook</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-9">
+                <table class="table table-bordered table-hover table-striped">
+                    <colgroup>
+                        <col width="60px"/>
+                        <col width="*"/>
+                        <col width="120px"/>
+                        <col width="120px"/>
+                        <col width="80px"/>
+                        <col width="60px"/>
+                    </colgroup>				
+                    <thead>
+                    <tr style="background-color:#DFF0D8  " class="text-center text-black">
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>작성일</th>
+                        <th>조회수</th>
+                        <th>첨부</th>
+                    </tr>
+                    </thead>				
+                    <tbody>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td class="text-left"><a href="ViewSkin.jsp">제목입니다</a></td>
+                        <td class="text-center">이강민</td>
+                        <td class="text-center">2020-11-19</td>
+                        <td class="text-center">99</td>
+                        <td class="text-center"><i class="material-icons" style="font-size:20px">attach_file</i></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td class="text-left"><a href="ViewSkin.jsp">제목입니다</a></td>
+                        <td class="text-center">이강민</td>
+                        <td class="text-center">2020-11-19</td>
+                        <td class="text-center">99</td>
+                        <td class="text-center"><i class="material-icons" style="font-size:20px">attach_file</i></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td class="text-left"><a href="ViewSkin.jsp">제목입니다</a></td>
+                        <td class="text-center">이강민</td>
+                        <td class="text-center">2020-11-19</td>
+                        <td class="text-center">99</td>
+                        <td class="text-center"><i class="material-icons" style="font-size:20px">attach_file</i></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td class="text-left"><a href="ViewSkin.jsp">제목입니다</a></td>
+                        <td class="text-center">이강민</td>
+                        <td class="text-center">2020-11-19</td>
+                        <td class="text-center">99</td>
+                        <td class="text-center"><i class="material-icons" style="font-size:20px">attach_file</i></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td class="text-left"><a href="ViewSkin.jsp">제목입니다</a></td>
+                        <td class="text-center">이강민</td>
+                        <td class="text-center">2020-11-19</td>
+                        <td class="text-center">99</td>
+                        <td class="text-center"><i class="material-icons" style="font-size:20px">attach_file</i></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td class="text-left"><a href="ViewSkin.jsp">제목입니다</a></td>
+                        <td class="text-center">이강민</td>
+                        <td class="text-center">2020-11-19</td>
+                        <td class="text-center">99</td>
+                        <td class="text-center"><i class="material-icons" style="font-size:20px">attach_file</i></td>
+                    </tr>
+                    </tbody>
+                    </table>
+
+                    <button type="button" class="btn btn-secondary">Reset</button>
+                    <button type="button" class="btn btn-outline-basic">글쓰기</button>
+                    <button type="button" class="btn btn-primary">수정하기</button>
+                    <button type="button" class="btn btn-success">삭제하기</button>
+                    <button type="button" class="btn btn-info">답글쓰기</button>
+                    <button type="button" class="btn btn-warning">리스트보기</button>
+                    <button type="button" class="btn btn-danger">전송하기</button>
+
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#page=1">1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#page=2">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#page=3">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#page=4">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#page=5">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+
+                  
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

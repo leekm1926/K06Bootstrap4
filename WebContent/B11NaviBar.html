@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B11NaviBar.html</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- 
+        fixed-top
+        :네비바를 페이지 상단에 고정시켜 스크롤해도
+        움직이지 않도록 설정한다
+     -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+           
+            <a class="navbar-brand" href="#">
+                <img src="./images/bird.jpg" alt="Logo" style="width:40px;">
+              </a>
+           
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">활성화링크</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">회원제게시판</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">임시Menu</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            </ul>
+
+            <form class="form-inline" action="/action_page.php">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </nav>
+      
+    <div class="container">
+
+        <h2>아코디언 구현하기</h2>
+        <div id="accordion">
+
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                  Collapsible Group Item #1
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    듣기만 영락과 우리 웅대한 방황하였으며, 원질이 무엇이 아름다우냐? 풍부하게 보이는 눈이 우리의 것이다. 힘차게 과실이 길을 트고, 기쁘며, 칼이다. 듣기만 인생에 능히 위하여서. 천고에 예수는 그들의 힘있다. 끝까지 이상, 꽃이 곧 듣기만 목숨이 청춘이 반짝이는 영락과 있는가? 않는 피고 목숨을 반짝이는 때까지 두기 쓸쓸하랴? 못하다 바이며, 위하여, 같이 귀는 눈에 것이다. 인생의 웅대한 이상, 오직 희망의 있는가? 과실이 바이며, 안고, 속에 꽃이 싸인 있으랴? 안고, 투명하되 일월과 인생에 역사를 피고 그들을 청춘의 인간은 말이다.
+                    <br><br>
+                    열락의 방황하여도, 끝까지 못할 그러므로 이것이다. 맺어, 천하를 듣기만 뛰노는 가슴이 희망의 그들의 대중을 피는 있는가? 두손을 피고, 풍부하게 영원히 생의 발휘하기 뿐이다. 거선의 만물은 되려니와, 힘차게 뭇 것이다.보라, 석가는 것은 얼음 황금시대다. 눈이 피고 날카로우나 위하여, 인간이 못할 것이다. 크고 있는 같이 없으면 것이다.보라, 모래뿐일 청춘의 그들에게 귀는 있다. 우리 몸이 이상의 놀이 말이다. 있으며, 튼튼하며, 넣는 청춘의 되려니와, 피고 고행을 끓는다. 주는 기쁘며, 뜨거운지라, 인도하겠다는 보라.
+                    <br><br>
+                    놀이 무엇이 있는 열매를 인간이 구하기 피다. 심장의 가진 튼튼하며, 천지는 인생에 얼음 꽃이 부패를 창공에 보라. 실현에 이상은 못할 것이다. 너의 피고 천하를 불어 그것은 목숨을 붙잡아 소금이라 옷을 사막이다. 이상은 따뜻한 이 반짝이는 불어 이상 주며, 사막이다. 인간이 끓는 설산에서 굳세게 구하지 아니다. 인생에 피어나기 목숨이 그들의 곳으로 들어 사랑의 있을 것이다. 얼마나 뼈 부패를 별과 든 얼마나 우리는 얼음과 가치를 있다. 가는 그들은 능히 피에 뜨거운지라, 간에 든 그들의 얼음에 아니다. 앞이 가장 이것을 것이다.
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                  Collapsible Group Item #2
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    마리아 그러나 쓸쓸함과 이름자를 오는 계집애들의 사랑과 내 까닭입니다. 경, 시인의 어머니, 묻힌 차 헤일 까닭입니다. 옥 소녀들의 가을 불러 별 써 언덕 이웃 하나에 까닭입니다. 사랑과 이런 밤이 추억과 벌써 우는 한 거외다.
+                    <br><br>
+                    무성할 가난한 우는 이름과 이름과, 봅니다. 이름과, 된 아스라히 무성할 한 북간도에 덮어 별 어머니, 듯합니다. 소학교 책상을 이름과, 보고, 까닭입니다. 나는 때 지나고 했던 있습니다.
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                  Collapsible Group Item #3
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    내 보고, 파란 하나에 패, 잔디가 별이 거외다. 언덕 헤는 않은 소녀들의 이 벌써 멀리 이웃 무엇인지 버리었습니다.
+                    <br><br>
+                    못 없이 어머니, 지나가는 다하지 아침이 사람들의 별이 까닭입니다. 하나에 별 덮어 어머님, 사람들의 멀리 패, 마디씩 봅니다. 이름과, 불러 다 봅니다.
+                </div>
+              </div>
+            </div>
+          
+          </div>
+
+    </div>
+</body>
+</html>
